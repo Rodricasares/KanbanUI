@@ -1,15 +1,18 @@
 .kanban {
     display: flex;
     align-items: flex-start;
+    flex-flow:row wrap;
+    justify-content: center;
 
     &__section {
         width: 400px;
+        margin: 20px;
         background-color: #383838;
         padding: 10px;
         border-radius: 10px;
 
         & ~ & {
-            margin-left: 10px;
+            *margin-left: 10px;
         }
 
         &__title {
