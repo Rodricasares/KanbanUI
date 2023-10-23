@@ -21,7 +21,14 @@ body {
     line-height: 1.5;
     background-repeat: no-repeat;
     object-fit: cover;
+height: 100vh;
 }
+@media (max-width: 1023px) and (min-width: 768px) {
+    .body {
+      height: 100vh;
+    }
+  }
+  
 h1{
     text-align: center;
 }
